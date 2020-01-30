@@ -1,0 +1,33 @@
+# AP Drive
+# this project is an object oriented implementation of an online drive(cloud)
+# in this phase(p1) only CLI is avalable
+#
+# commands: arguments in {} are mandetory whereas ones in [] are optional
+#
+# user management:
+# -----admin-----  add_user {user_name} {password}
+# ---------------  login {user_name} {password}
+# ---------------  logout
+# ---------------  add_group {group_name}
+# ----in goup----  add_to_group {group_name} {username}
+# 
+# file management:
+# ---------------  upload {real_file_name} {path}
+# ---------------  download {path} {output_name}
+# ---------------  make_directory {directory_name}
+# ---------------  copy {source_path} {destination_path}
+# ---------------  move {source_path} {destination_path}
+# ---------------  remove {path}
+# ---------------  print_directory
+# ---------------  change_directory {path}
+# ---------------  elem_info [path]
+# ---------------  file_size {path}
+# ---------------  change_mode {group | user} {+|-} {read|write|rw} {file|directory path}
+# ---------------  change_owner {username} {file|directory path}
+# ---------------  change_group {group_name} {file|directory path}
+# 
+# admin|superuser: 
+# ---------------  promote {username} {superuser|admin}
+# ---------------  demote {username} {admin|normal}
+# ---------------  userlist
+# ---------------  storage

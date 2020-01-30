@@ -1,0 +1,23 @@
+.logosmall{
+  width:  5% !important;
+  height: 5% !important;
+}
+.dropdown{
+  float: right;
+}
+.userlist{
+  width:  75% !important;
+  height: 75% !important;
+  margin: 1%;
+  padding: 1%;
+}
+.fileslist{
+  width:  75% !important;
+  height: 75% !important;
+  margin: 1%;
+  padding: 1%;
+}
+.insidepage{
+  padding: 10%;
+  margin: 10%;
+}

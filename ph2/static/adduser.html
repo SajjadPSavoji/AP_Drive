@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>user list</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="/adduser.css">
+  <link rel="stylesheet" type="text/css" href="/manage.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+  <!-- Brand -->
+  <a class="navbar-brand justify-content-sm-start col-sm-6" href="/">
+    <img src="/logo.png" class="logosmall">
+  </a>
+  <div class="col-sm-3">
+  </div>
+  <p class="text-white justify-content-sm-end">USERNAME_REPLACE</P>
+  <ul class="navbar-nav justify-content-sm-end">
+    <li class="nav-item dropdown justify-content-sm-end">
+      <a class="nav-link dropdown-toggle justify-content-sm-end" href="#" id="navbardrop" data-toggle="dropdown">
+        |||
+      </a>
+      <div class="dropdown-menu justify-content-sm-end">
+        <a class="dropdown-item" href="/">home</a>
+        <a class="dropdown-item" href="/userpage">drive</a>
+        <a class="dropdown-item" href="/login">login</a>
+        <a class="dropdown-item" href="/logout">logout</a>
+        <a class="template"></a>
+      </div>
+    </li>
+  </ul>
+</nav>
+<br>
+<div class="template_detail   m-5">
+  <div class="card pb-2" style="width:400px">
+    <img class="card-img-top" src="/userprofile.png" alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">adduser</h4>
+      <p class="card-text"></p>
+      <form action="/adduser" method="post">
+        <div class="form-group">
+          <label for="email">Username:</label>
+          <input type="username" class="form-control" id="username" placeholder="Enter username" name="username">
+        </div>
+        <div class="form-group">
+          <label for="pwd">Password:</label>
+          <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+        </div>
+        <div class="form-group form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" name="remember"> Remember me
+          </label>
+        </div>
+        <button type="submit" class=" p-2 btn btn-outline-success">Submit</button>
+  </form>
+    </div>
+</div>
+</div>
+</body>
+</html>

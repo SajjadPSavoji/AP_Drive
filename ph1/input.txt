@@ -1,0 +1,10 @@
+login root root
+make_directory sajjad
+add_user ali pass
+change_mode user - read sajjad
+elem_info sajjad
+change_mode user - write sajjad
+elem_info sajjad
+change_mode user + rw sajjad
+elem_info sajjad
+change_mode user - write /ali

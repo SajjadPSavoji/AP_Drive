@@ -1,0 +1,8 @@
+login root root
+make_directory sajjad
+upload test.txt up1.txt
+upload input.txt sajjad/in.txt
+copy up1.txt sajjad/up1.txt
+copy sajjad/in.txt in.txt
+download in.txt indown.txt
+download sajjad/up1.txt updown.txt
